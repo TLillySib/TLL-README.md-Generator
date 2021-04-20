@@ -45,7 +45,7 @@ const questions = () => {
         type: 'list',
         name: 'license',
         message:
-          'Choose a license (if project is open sourced, please choose 'none' from the list below).',
+          'Choose a license (if project is open sourced, please choose "none" from the list below).',
         choices: ["Apache 2.0", "GNU GPLv3", "MIT", "BSD 3", "None"],
     },
     {
@@ -60,9 +60,10 @@ const questions = () => {
     },
   ])
 
-
 .then((data) => {
     const fileName = `${data.name.toLowerCase().split(' ').join('')}.md`;
+});
+}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -80,3 +81,5 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
