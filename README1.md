@@ -1,12 +1,12 @@
-# ttt
+**# 
 
-  ![mit](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![gpl](https://img.shields.io/badge/license-GPL%203.0-green)
 
   ## Description
 
   Provide a short description explaining the what, why, and how of your project. 
 
-  lll
+  
 
   ## Table of Contents 
 
@@ -22,12 +22,12 @@
   
   To install necessary dependencies, run the following command:
 
-  lll
+  
   
   ## Tests
   To run tests, run the following command:
 
-  ll
+  
   
   ## Usage
   Provide instructions and examples for use. 
@@ -37,17 +37,17 @@
   ## Credits
   List your collaborators with links to their GitHub profiles, any third-party assets that require attribution, list the creators with links to their primary web presence in this section, and if you used tutorials, include links to those here as well.
 
-  l
+  
 
   ## Contributions
 
-  n
+  
 
   ## License
 
-  This project is licensed under [MIT license](https://opensource.org/licenses/MIT).
+  This project is licensed under [GNU GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-   A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code. 
+   Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. 
 
 
   ## Questions
