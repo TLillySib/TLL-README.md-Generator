@@ -4,20 +4,20 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions = () => {
-  return inquirer.prompt([
+const questions = [
+  
     {
         type: 'input',
         name: 'title',
         message: 'What is the name of your project?',
     },
     {
-        ype: 'editor',
+        ype: 'input',
         name: 'description',
         message: 'Please provide a short description explaining the what, why, and how of your project.',
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'dependencies',
         message: 'What are the steps required to install your project?',
     },
@@ -44,9 +44,8 @@ const questions = () => {
     {
         type: 'list',
         name: 'license',
-        message:
-          'Choose a license (if project is open sourced, please choose "none" from the list below).',
-        choices: ["Apache 2.0", "GNU GPLv3", "MIT", "BSD 3", "None"],
+        message:'Choose a license (if project is open sourced, please choose "none" from the list below).',
+        choices: ["GNU GPLv3", "Apache 2.0", "MIT", "BSD 3", "None"],
     },
     {
       type: 'input',
@@ -58,12 +57,12 @@ const questions = () => {
         name: 'email',
         message: 'What is your email address?',
     },
-  ])
+  ]
 
-.then((data) => {
-    const fileName = `${data.name.toLowerCase().split(' ').join('')}.md`;
-});
-}
+//.then((data) => {
+//     const fileName = `${data.name.toLowerCase().split(' ').join('')}.md`;
+// });
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -75,7 +74,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data)=> {
-        fs.writeFile('README1.md', generateMarkdown(data))
+        // console.log(data)
+    writeToFile("README1.md", generateMarkdown(data))
     })
 }
 
