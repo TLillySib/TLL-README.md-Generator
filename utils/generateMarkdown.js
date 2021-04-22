@@ -68,19 +68,17 @@ function generateMarkdown(data) {
   - [License](#license)
   
   ## Installation
-  What are the steps required to install your project? 
+  What commands are required to run your to install dependencies? 
   
-  To install necessary dependencies, run the following command:
-
   ${data.dependencies}
   
   ## Tests
-  To run tests, run the following command:
+  What commands are required to run tests? 
 
   ${data.test}
   
   ## Usage
-  Provide instructions and examples for use. 
+  What does the user need to know about using this repository? Provide instructions and examples for use. 
    
   ${data.usage}
 
@@ -90,6 +88,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## Contributions
+  What does the user nee to know about contributing to the repository?
 
   ${data.contributors}
 

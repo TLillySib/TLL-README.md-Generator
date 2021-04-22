@@ -1,12 +1,12 @@
-# README Generator
+# Professional README Generator Project
 
-  ![bsd](https://img.shields.io/badge/license-BSD%203-blue)
+  ![gpl](https://img.shields.io/badge/license-GPL%203.0-green)
 
   ## Description
 
   Provide a short description explaining the what, why, and how of your project. 
 
-  ou can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+  The purpose of this project is to demonstrate this readme generator.
 
   ## Table of Contents 
 
@@ -18,36 +18,35 @@
   - [License](#license)
   
   ## Installation
-  What are the steps required to install your project? 
+  What commands are required to run your to install dependencies? 
   
-  To install necessary dependencies, run the following command:
-
   npm i
   
   ## Tests
-  To run tests, run the following command:
+  What commands are required to run tests? 
 
   npm run test
   
   ## Usage
-  Provide instructions and examples for use. 
+  What does the user need to know about using this repository? Provide instructions and examples for use. 
    
-  N/a
+  This repository is for demonstration purposes.
 
   ## Credits
   List your collaborators with links to their GitHub profiles, any third-party assets that require attribution, list the creators with links to their primary web presence in this section, and if you used tutorials, include links to those here as well.
 
-  None
+  This repository is for demonstration purposes and is not accepting contributions.
 
   ## Contributions
+  What does the user nee to know about contributing to the repository?
 
-  None at this time
+  This repository is for demonstration purposes and is not accepting contributions.
 
   ## License
 
-  This project is licensed under [BSD 3 license](https://opensource.org/licenses/BSD-3-Clause).
+  This project is licensed under [GNU GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-  A permissive license similar to the BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the copyright holder or its contributors to promote derived products without written consent. 
+   Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. 
 
 
   ## Questions

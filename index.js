@@ -9,7 +9,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of your project?',
+        message: 'What is the title of your project?',
     },
     {
         ype: 'input',
@@ -19,27 +19,27 @@ const questions = [
     {
         type: 'input',
         name: 'dependencies',
-        message: 'What are the steps required to install your project?',
+        message: 'What commands are required to run your to install dependencies?',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'What are the steps required to run tests?',
+        message: 'What commands are required to run tests?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use. Include screenshots as needed.',
+        message: 'What does the user need to know about using this repository? Provide instructions and examples for use.',
     },
     {
         type: 'input',
         name: 'credits',
-        message: 'List your collaborators, if any, with links to their GitHub profiles. If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. If you followed tutorials,include links to those here as well.?',
+        message: 'List your collaborators.',
     },
     {
         type: 'input',
         name: 'contributors',
-        message: 'Who are the contributors, and instructions for contributing?',
+        message: 'What does the user need to know about contributing to the repository?',
     },
     {
         type: 'list',
@@ -55,7 +55,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?',
+        message: 'Enter your email address?',
     },
   ]
 
